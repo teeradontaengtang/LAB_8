@@ -1,5 +1,4 @@
 def mergeSort(Array):
-    print("Splitting ",Array)
     if len(Array)>1:
         mid = len(Array)//2
         lefthalf = Array[:mid]
@@ -27,7 +26,6 @@ def mergeSort(Array):
             Array[k]=righthalf[j]
             j=j+1
             k=k+1
-    print("Merging ",Array)
 
 Array = [29,10,14,37,14,20,7,16,12]
 mergeSort(Array)
